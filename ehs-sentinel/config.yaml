@@ -83,7 +83,7 @@ schema:
   polling_aktiviert: "bool"
   
   # UI und API Einstellungen
-  ui_port: "port(1025,65535)"
+  ui_port: "int(1025,65535)"
   
   # Protokollierung
   log_level: "list(DEBUG|INFO|WARNING|ERROR)"
